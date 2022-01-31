@@ -1,3 +1,5 @@
+![screenshot](screenshot.png)
+
 # Snake
 
 I read somewhere that if you are interested in gamedev, you should start out small.
