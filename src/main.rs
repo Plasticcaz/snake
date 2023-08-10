@@ -36,8 +36,8 @@ fn next_position(from: Position, direction: Direction) -> Position {
     let Position((old_x, old_y)) = from;
 
     let (dx, dy) = match direction {
-        Direction::North => (old_x, old_y - 1.0),
-        Direction::South => (old_x, old_y + 1.0),
+        Direction::North => (old_x, old_y + 1.0),
+        Direction::South => (old_x, old_y - 1.0),
         Direction::West => (old_x - 1.0, old_y),
         Direction::East => (old_x + 1.0, old_y),
     };
